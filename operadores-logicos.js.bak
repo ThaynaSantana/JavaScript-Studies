@@ -1,0 +1,14 @@
+// Operadores logicos (logical operators)
+let pao = true
+let queijo = true
+
+// 	AND &&
+console.log(pao && queijo)
+console.log(pao and queijo)
+
+//	OR ||
+console.log(pao || queijo)
+console.log(pao or queijo)
+
+// NOT ! (inveter os valores)
+console.log(!queijo)
