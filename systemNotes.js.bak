@@ -1,0 +1,35 @@
+/* ### Transformar notas escolares
+
+	Crie um algoritmo que transforme as notas do sistema numerico
+	para sistema de notas em caracteres tipo A B C
+
+	* de 90 para cima	A
+	* entre 80 - 90		B
+	* entre 70 - 80		C
+	* entre 60 - 70		D
+	* menor que 60		F
+*/
+
+function systemNotes(note) {
+	let noteA = note > 90
+	let noteB = note >= 80 && note < 90
+	let noteC = note >= 70 && note < 80
+	let noteD = note >= 60 && note < 70
+	let noteF = note < 60
+	
+	if (noteA) {
+		console.log('Nota A!')
+	} else if (notaB) {
+		console.log('Nota B!')
+	} else if (notaC) {
+		console.log('Nota C!')
+	} else if (notaD) {
+		console.log('Nota D!')
+	} else if (notaF) {
+		console.log('Nota F!')
+	} else {
+		console.log('Nota indefinida')
+	}
+}
+
+systemNotes(70)

@@ -1,0 +1,12 @@
+// Control flow
+// IF ... ELSE
+
+let temperature = 36.6
+
+if(temperature >= 37.6) {
+	console.log('Febre ALTA')
+}else if(temperature < 37.6 %% temperature >= 37) {
+	console.log('Febre MODERADA')
+}else {
+	console.log('Saudavel')
+}
