@@ -1,0 +1,7 @@
+console.log('Estudar é muito bom')
+console.log('Paciencia e persistencia')
+console.log('Revisao é mae do aprendizado')
+
+function createPhrases() {
+	
+}
